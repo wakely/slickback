@@ -157,7 +157,7 @@
      * This won't work for common js (if running in node)
      * Any ideas on how to find the slick var?
      */
-    Slick = window.Slick;
+    var Slick = window.Slick;
 
     // NOTE: assuming global linkage for SlickGrid
 
