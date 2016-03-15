@@ -24,7 +24,7 @@
      * - allowNull (returns null for blank values; othewise returns zero)
      */
     var numberFormatter = function (row, cell, value, col, data) {
-        methods = {
+        var methods = {
             thousandsSeparated: function (numberValue, separator) {
                 var stringValue = String(numberValue);
                 var numberParts = stringValue.split('.');
